@@ -16,7 +16,7 @@ root = tk.Tk()
 root.title("Моя первая программа")
 root.geometry("300x200")
 
-button = tk.Button(root, text="Нажми меня", command=on_button_click)
+button = tk.Button(root, text="Нажми на меня", command=on_button_click)
 button.pack(pady=20)
 
 root.mainloop()
